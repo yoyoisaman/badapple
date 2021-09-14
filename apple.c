@@ -22,7 +22,7 @@ int main()
 
 	for (i = 0; i <=9720 ; i++)
 	{
-		sprintf(FileName,"C:\\Users\\User\\Desktop\\gg\\ANS\\%ld.txt", i);
+		sprintf(FileName,pos, i);
 		in = fopen(FileName, "r");
 		if(in == NULL){
             printf("error");
